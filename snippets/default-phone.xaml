@@ -1,1 +1,15 @@
+{% comment %} Default stack layout {% endcomment %}
+
 <? version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2024/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:Rock="clr-namspace:Rock.Mobile.Cms;assembly=Rock.Mobile"
+            xmlns:Common="clr-namespace:Rock.Mobile.Common;assembly=Rock.Mobile.Common">
+    <StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Rock:Zone ZoneName="Main" Spacing="0" />
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
